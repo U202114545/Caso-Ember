@@ -28,3 +28,16 @@ img {
   justify-content: center;
   gap: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .cards-complete {
+    flex-direction: column;
+  }
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  .bundle-card {
+    width: 80%;
+  }
+}
