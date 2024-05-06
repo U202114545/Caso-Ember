@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "description": "Description the product 1",
+      "photoUrl": "url_a_la_image_del_product_1",
+      "price": 100,
+      "bundleId": 1,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "description": "Description del product 2",
+      "photoUrl": "url_a_la_image_del_product_2",
+      "price": 200,
+      "bundleId": 2,
+      "rating": 5
+    }
+  ],
+  "bundles": [
+    {
+      "id": 1,
+      "title": "Bundle 1",
+      "description": "Description del bundle 1",
+      "photoUrl": "url_a_la_image_del_bundle_1",
+      "price": 300,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "title": "Bundle 2",
+      "description": "Description del bundle 2",
+      "photoUrl": "url_a_la_image_del_bundle_2",
+      "price": 400,
+      "rating": 5
+    }
+  ]
+}

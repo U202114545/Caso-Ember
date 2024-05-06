@@ -1,0 +1,7 @@
+.my-toolbar {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  background-color: antiquewhite;
+  padding: 20px ;
+}
