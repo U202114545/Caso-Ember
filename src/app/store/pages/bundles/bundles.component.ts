@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { BundleService} from "../../services/bundles-service.service";
 import { Bundle} from "../../model/bundles";
 
+
 @Component({
   selector: 'app-bundles',
   templateUrl: './bundles.component.html',

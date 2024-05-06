@@ -1,13 +1,16 @@
-<mat-card class="bundle-card" *ngFor="let bundle of bundles">
-  <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>{{bundle.title}}</mat-card-title>
-    <mat-card-subtitle>Rating: {{bundle.rating}}</mat-card-subtitle>
-  </mat-card-header>
-  <img mat-card-image [src]="bundle.photoUrl" alt="{{bundle.title}}">
-  <mat-card-content>
-    <p>Price: ${{bundle.price.toFixed(2)}}</p>
-    <p>You Save: ${{bundle.savings.toFixed(2)}}</p>
-    <p>{{bundle.description}}</p>
-  </mat-card-content>
-</mat-card>
+
+
+<div class="cards-complete">
+  <mat-card class="bundle-card" *ngFor="let bundle of bundles">
+    <mat-card-header>
+      <mat-card-title>{{bundle.title}}</mat-card-title>
+      <mat-card-subtitle>Rating: {{bundle.rating}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="bundle.photoUrl" alt="{{bundle.title}}">
+    <mat-card-content>
+      <p>Price: ${{bundle.price.toFixed(2)}}</p>
+      <p>You Save: ${{bundle.savings.toFixed(2)}}</p>
+      <p>{{bundle.description}}</p>
+    </mat-card-content>
+  </mat-card>
+</div>

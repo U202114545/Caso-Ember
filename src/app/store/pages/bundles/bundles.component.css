@@ -1,0 +1,30 @@
+.bundle-card {
+  padding: 10px;
+  background-color: forestgreen;
+  width: 50%;
+  margin: 10px auto;
+  gap: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.mat-card-title {
+  color: white;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  margin: 10px;
+}
+.cards-complete {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 10px;
+}
