@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Product 1",
+      "description": "description product 1",
+      "photoUrl": "url_a_la_imagen_del_producto_1",
+      "price": 100,
+      "bundleId": 1,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "title": "Product 2",
+      "description": "description product 1",
+      "photoUrl": "url_a_la_imagen_del_producto_2",
+      "price": 200,
+      "bundleId": 2,
+      "rating": 5
+    },
+    {
+      "id": 3,
+      "title": "Product 3",
+      "description": "description product 1",
+      "photoUrl": "url_a_la_imagen_del_producto_3",
+      "price": 300,
+      "bundleId": 3,
+      "rating": 3
+    },
+    {
+      "id": 4,
+      "title": "Product 4",
+      "description": "description product 1",
+      "photoUrl": "url_a_la_imagen_del_producto_4",
+      "price": 400,
+      "bundleId": 4,
+      "rating": 2
+    },
+{
+      "id": 5,
+      "title": "Product 5",
+      "description": "description product 1",
+      "photoUrl": "url_a_la_imagen_del_producto_5",
+      "price": 500,
+      "bundleId": 1,
+      "rating": 1
+    },
+    {
+      "id": 6,
+      "title": "Product 6",
+      "description": "description product 1",
+      "photoUrl": "url_a_la_imagen_del_producto_6",
+      "price": 600,
+      "bundleId": 2,
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "title": "Product 7",
+      "description": "description product 1",
+      "photoUrl": "url_a_la_imagen_del_producto_7",
+      "price": 700,
+      "bundleId": 3,
+      "rating": 5
+    },
+    {
+      "id": 8,
+      "title": "Product 8",
+      "description": "description product 1",
+      "photoUrl": "url_a_la_imagen_del_producto_8",
+      "price": 800,
+      "bundleId": 4,
+      "rating": 3
+    },
+    {
+      "id": 9,
+      "title": "Product 9",
+      "description": "description product 1",
+      "photoUrl": "url_a_la_imagen_del_producto_9",
+      "price": 900,
+      "bundleId": 1,
+      "rating": 2
+    },
+    {
+      "id": 10,
+      "title": "Product 10",
+      "description": "description product 1",
+      "photoUrl": "url_a_la_imagen_del_producto_10",
+      "price": 1000,
+      "bundleId": 2,
+      "rating": 1
+    }
+  ]
+}

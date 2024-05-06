@@ -1,0 +1,24 @@
+mat-card {
+  background: #2C3E50;
+  color: white;
+  width: 250px; /* Ajustar ancho según sea necesario */
+  height: auto;
+  margin: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+mat-card-image {
+  height: 200px; /* Ajustar altura según sea necesario */
+  margin-bottom: 24px;
+  object-fit: cover;
+}
+
+mat-card-title {
+  padding-top: 8px;
+  font-weight: 600;
+}
+mat-card-content{
+  margin-top: 24px;
+  font-weight: 300;
+}

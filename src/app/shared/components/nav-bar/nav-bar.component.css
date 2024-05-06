@@ -1,0 +1,21 @@
+mat-toolbar{
+  background-color: #1976d2;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1  {
+  color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+a:hover {
+  color: lightgray;
+}

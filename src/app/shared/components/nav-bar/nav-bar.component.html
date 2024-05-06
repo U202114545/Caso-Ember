@@ -1,12 +1,11 @@
-<mat-toolbar color="primary">
-  <span>Nombre de startup</span>
-
-    <button mat-button >
-      <mat-icon>home</mat-icon>
-      <span>First</span>
-    </button>
-    <button mat-button >
-      <mat-icon>person</mat-icon>
-      <span>Second</span>
-    </button>
+<mat-toolbar>
+  <h1>Ember</h1>
+  <div>
+    <a mat-button routerLink="/home" routerLinkActive="active">
+      <span>Home</span>
+    </a>
+    <a mat-button routerLink="/store/bundles" routerLinkActive="active">
+      <span>Bundles</span>
+    </a>
+  </div>
 </mat-toolbar>
