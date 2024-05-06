@@ -1,1 +1,10 @@
-<p>bundles works!</p>
+<div class="card">
+  <img [src]="bundle.photoUrl" alt="Photo of {{bundle.title}}">
+  <div class="card-body">
+    <h5 class="card-title">{{bundle.title}}</h5>
+    <p class="card-text">{{bundle.description}}</p>
+    <p class="card-text">Price: ${{bundle.price.toFixed(2)}}</p>
+    <p class="card-text">You Save: ${{youSave.toFixed(2)}}</p>
+    <p class="card-text">Rating: {{bundle.rating}}</p>
+  </div>
+</div>

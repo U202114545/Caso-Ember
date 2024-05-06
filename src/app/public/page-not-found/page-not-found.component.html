@@ -1,1 +1,7 @@
-<p>page-not-found works!</p>
+<div class="mat-typography">
+  <h1 class="mat-display-1" style="text-align: center;">Page Not Found</h1>
+  <p style="text-align: center;">
+    The page '{{route.snapshot.url.toString()}}' does not exist.
+  </p>
+  <button mat-raised-button color="primary" routerLink="/">Return to Home</button>
+</div>
